@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://minboykim.github.io/sitemap.xml
