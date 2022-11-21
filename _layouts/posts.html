@@ -6,6 +6,14 @@ layout: archive
 
 <!-- {% include disqus.html %} -->
 
+<script src="https://utteranc.es/client.js"
+        repo="MinboyKim/MinboyKim.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
