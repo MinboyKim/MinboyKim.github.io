@@ -29,11 +29,8 @@ layout: archive
   </section>
 {% endfor %}
 {% if site.disqus.shortname $}
-    {% include disqus.html %}
-  {% endif %}
-  {% else %}
-    {{ content }}
-    {% if site.disqus.shortname %}
-      {% include disqus.html %}
-  {% endif %}
+  {% include disqus.html %}
+{% endif %}
+{% if site.disqus.shortname %}
+  {% include disqus.html %}
 {% endif %}
