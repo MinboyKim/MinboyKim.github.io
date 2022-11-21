@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : posts
 title : "C++ 조합(Combination) - next_permutation"
 typora-copy-images-to : ../../images/2022-11-21
 ---
