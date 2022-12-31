@@ -1,8 +1,13 @@
 ---
-layout : posts
 title : "C++ 조합(Combination) - next_permutation"
-typora-copy-images-to : ../../images/2022-11-21
 comments : true
+sidebar_main: true
+categories:
+  - Cpp
+tags:
+  - Cpp
+  - 라이브러리 함수
+classes: wide
 ---
 
 [백준 23057번 - 도전 숫자왕](https://www.acmicpc.net/problem/23057) 을 풀다가 알게된 사실. C++ 에서 순열(Permutation)을 구할 때 사용하는 next_permutaion 을 이용하면 조합(Combination)을 쉽게 구할 수 있다.
@@ -43,7 +48,7 @@ int main(void) {
 
 * 실행 결과
 
-  ![스크린샷 2022-11-21 오후 4.35.01](../images/2022-11-21/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-11-21%20%EC%98%A4%ED%9B%84%204.35.01.png)
+  ![스크린샷 2022-11-21 오후 4.35.01](/images/2022-11-21/1.png)
 
 ​	1, 2, 3 을 이용한 모든 순열을 출력한다. 루프가 끝난 뒤에는 원래의 순서를 유지하는 모습을 볼 수 있다.
 
@@ -88,7 +93,7 @@ next_permutation 을 통해 순서가 바뀌며 조합을 생성한다.
 
 * 실행 결과
 
-  ![스크린샷 2022-11-21 오후 4.55.39](../images/2022-11-21/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-11-21%20%EC%98%A4%ED%9B%84%204.55.39.png)
+  ![스크린샷 2022-11-21 오후 4.55.39](/images/2022-11-21/2.png)
 
   
 
