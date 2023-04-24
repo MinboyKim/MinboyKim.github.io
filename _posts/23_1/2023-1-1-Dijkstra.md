@@ -5,7 +5,7 @@ sidebar_main: true
 categories:
   - Algorithm
 tags:
-  - Cpp
+  - Dijkstra
 classes: wide
 ---
 
