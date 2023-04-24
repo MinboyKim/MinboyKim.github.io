@@ -161,3 +161,9 @@ classes: wide
 ## 결론
 
 데이터 정규화의 목적은 테이블의 중복된 데이터를 허용하지 않음으로써 무결성을 유지하고 DB의 유연성을 높임과 동시에 이상(Anomaly) 현상을 없애는 데에 있다. 각 정규화의 정의와 decomposition의 과정을 잘 알아 두어야겠다.
+
+<cite>내용 출처</cite>
+<https://yaboong.github.io/database/2018/03/10/database-normalization-2/>
+{: .small}
+<https://www.youtube.com/watch?v=Y1FbowQRcmI&ab_channel=%EC%BD%94%EB%94%A9%EC%95%A0%ED%94%8C/>
+{: .small}
