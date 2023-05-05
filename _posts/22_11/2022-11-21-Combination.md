@@ -7,7 +7,8 @@ categories:
 tags:
   - Cpp
   - 라이브러리 함수
-classes: wide
+toc: true
+toc_sticky: true
 ---
 
 [백준 23057번 - 도전 숫자왕](https://www.acmicpc.net/problem/23057) 을 풀다가 알게된 사실. C++ 에서 순열(Permutation)을 구할 때 사용하는 next_permutaion 을 이용하면 조합(Combination)을 쉽게 구할 수 있다.
