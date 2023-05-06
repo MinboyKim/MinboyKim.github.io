@@ -50,8 +50,9 @@ toc_sticky: true
 | 104 | 건덕이 | 모바일프로그래밍 | 120분 |
 | 105 | 건구스 | 운영체제 | 90분 |
 
-위와 같은 테이블이 존재한다고 가정하자. 이때 운영체제의 수업시간이 60분으로 변경되었다고 하면, 운영체제를 듣고있는 모든 학생들의 수업시간을 변경해야한다. 이 비효율을 줄이는 정규화가 제 2 정규화이다. <br/><br/>
-위 테이블을
+위와 같은 테이블이 존재한다고 가정하자. 이때 운영체제의 수업시간이 60분으로 변경되었다고 하면, 운영체제를 듣고있는 모든 학생들의 수업시간을 변경해야한다. 이 비효율을 줄이는 정규화가 제 2 정규화이다. <br/>
+위 테이블을 <br/>
+
 **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;table1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;table2**
 
 |**ID**| 학생명 | 과목명 | : | | : | **과목명**| 수업시간 |
