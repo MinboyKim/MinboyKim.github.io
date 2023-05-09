@@ -58,7 +58,7 @@ FIFO의 위와같은 단점을 해결하는 알고리즘으로, job들이 동시
 
 ![image](/images/2023-5/CPUScheduling/SJF2.jpeg)
 
-오래걸리는 job인 A가 먼저 도착하지 또다시 Turnaround time이 나빠지는 것을 볼 수 있다.
+오래걸리는 job인 A가 먼저 도착하자 또다시 Turnaround time이 나빠지는 것을 볼 수 있다.
 
 ## Preemptive VS Non-Preemptive
 
