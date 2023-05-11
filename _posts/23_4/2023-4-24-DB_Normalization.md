@@ -7,7 +7,6 @@ categories:
 tags:
   - database
   - db
-  - normalization
 toc: true
 toc_sticky: true
 ---
