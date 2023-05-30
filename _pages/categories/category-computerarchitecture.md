@@ -1,7 +1,7 @@
 ---
 title: "ComputerArchitecture"
 layout: archive
-permalink: /categories/computerarchitecture
+permalink: /categories/ComputerArchitecture
 author_profile: true
 sidebar_main: true
 ---
