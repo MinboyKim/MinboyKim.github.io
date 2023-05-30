@@ -27,6 +27,11 @@
                 {% endif %}
             {% endfor %}
             {% for category in site.categories %}
+                {% if category[0] == "ComputerArchitecture" %}
+                    <li><a href="/categories/ComputerArchitecture" class="">ComputerArchitecture ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+            {% for category in site.categories %}
                 {% if category[0] == "Network" %}
                     <li><a href="/categories/Network" class="">Network ({{category[1].size}})</a></li>
                 {% endif %}
