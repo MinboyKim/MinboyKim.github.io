@@ -1,5 +1,5 @@
 ---
-title: "ComputerArchitecture"
+title: "Computer Architecture"
 layout: archive
 permalink: /categories/ComputerArchitecture
 author_profile: true
