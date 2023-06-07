@@ -87,7 +87,7 @@ counter = counter + 1;
 
 이런 현상은 결국 `counter = counter + 1` 이라는 코드가 내부적으로는 세 명령어로 이루어져있고, 그 세 줄의 명령어 블록을 통해 여러개의 스레드가 공유하는 자원인 counter 변수에  동시에 접근하면서 발생하는 문제이다. 이렇게 공유 자원에 동시에 여러 스레드가 접근하여 의도하지 않은 결과를 만들어 내는 것을 **race condition, 경쟁 상태**라고 한다.
 
-또한 race condition을 발생시키는 영역, 위의 에시에서는 `counter = counter + 1` 와 같은 영역을 **cirtical section, 임계 영역**이라고한다.
+또한 race condition을 발생시키는 영역, 위의 예시에서는 `counter = counter + 1` 와 같은 영역을 **cirtical section, 임계 영역**이라고한다.
 
 Race condition을 해결하려면 결국 공유자원에 접근할 때 하나를 초과하는 스레드는 접근하지 못하도록 막으면 된다. 그렇게 critical section에 접근할 수 있는 스레드를 하나로 제한함을 보장하는 것을 **Mutual exclusion, 상호 배제**라고 한다.
 
