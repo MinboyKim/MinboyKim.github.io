@@ -45,7 +45,7 @@ toc_sticky: true
 
 이러한 장점들 때문에 웹서버, DBMS(DataBase Management System) 등 현대의 많은 응용 프로그램들은 멀티스레드를 구현에 이용한다.
 
-## Race condition (경쟁 상태)
+# Race condition (경쟁 상태)
 
 Race condition은 멀티 프로세스 또는 멀티 스레드 시스템에서 나타날 수 있는 대표적인 문제들 중 하나이다. 이 글에서는 멀티 스레드에서의 Race condition에 초점을 맞춰 설명해보겠다. 
 
