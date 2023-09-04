@@ -103,3 +103,6 @@ Promise는 여러 비동기 작업을 동시에 실행할 수 있는 메소드�
 - Promise.all() : 모든 Promise들이 fulfilled 상태가 되면 fulfilled 상태의 Promise 객체를 반환한다. 하나의 Promise라도 reject 된다면 rejected 상태의 Promise 객체를 반환한다.
 - Promise.any() : 하나의 Promise라도 fulfilled 상태가 되면 fulfilled 상태의 Promise 객체를 반환한다.모든 Promise들이 reject 되면 rejected 상태의 Promise 객체를 반환한다.
 - Promise.race() : 하나의 Promise가 settled되는 즉시 그 Promise의 state에 따른 Promise 객체를 반환한다.
+
+참고 내용 및 사진 출처
+![MDN - Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
