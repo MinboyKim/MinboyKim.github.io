@@ -5,8 +5,9 @@ sidebar_main: true
 categories:
   - JS
 tags:
-  - Promise
-  - Asynchronous
+  - promise
+  - asynchronous
+  - js
 toc: true
 toc_sticky: true
 date: "2023-09-04 22:16:00 +0900"

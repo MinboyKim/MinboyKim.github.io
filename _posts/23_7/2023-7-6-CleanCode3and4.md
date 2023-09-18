@@ -1,23 +1,24 @@
 ---
-title : "클린 코드 3장 & 4장"
-comments : true
+title: "클린 코드 3장 & 4장"
+comments: true
 sidebar_main: true
 categories:
   - Book
 tags:
-  - Review
-  - CleanCode
+  - review
+  - cleancode
   - 클린 코드
 toc: true
 toc_sticky: true
 ---
+
 # 3장 함수
 
 어떤 프로그램이든 가장 기본적인 단위는 함수이다. 읽기 쉽고 이해하기 쉬운 함수는 어떻게 작성해야하는가?
 
 ## 작게 만들어라!
 
-함수는 짧아야한다. 
+함수는 짧아야한다.
 
 **Norminette**
 
@@ -33,7 +34,7 @@ toc_sticky: true
 
 지정된 함수 이름 아래에서 추상화 수준이 하나인 단계만 수행한다면 그 함수는 한 가지 작업만 하는 것이다.
 
-의미 있는 이름으로 다른 함수를 추출할 수 있다면 그 함수는 여러 작업을 하는 셈이다. 
+의미 있는 이름으로 다른 함수를 추출할 수 있다면 그 함수는 여러 작업을 하는 셈이다.
 
 ⇒ 더이상 함수를 추출할 수 없을때까지 작업들을 함수로 분리해내자.
 
@@ -91,11 +92,11 @@ switch 문은 작게 만들기 어렵다. (if/else가 여럿 이어지는 구문
 
 ## 함수 인수
 
-인수는 적을수록 좋다. 인수는 개념을 이해하기 어렵게 만든다. 코드를 읽는 사람이 인수의 의미를 해석해야한다. 추상화 수준이 달라질 위험도 있다. 
+인수는 적을수록 좋다. 인수는 개념을 이해하기 어렵게 만든다. 코드를 읽는 사람이 인수의 의미를 해석해야한다. 추상화 수준이 달라질 위험도 있다.
 
 테스트 관점에서도 갖가지 인수 조합으로 함수를 검증하는 TC를 만들어야 하기에 복잡해진다.
 
-출력 인수는 이해하기 어렵다. 대개 함수에서 인수로 결과를 받으리라 기대하지 않는다. 출력 인수는 코드를 재차 확인하게 만든다. 
+출력 인수는 이해하기 어렵다. 대개 함수에서 인수로 결과를 받으리라 기대하지 않는다. 출력 인수는 코드를 재차 확인하게 만든다.
 
 **많이 쓰는 단항 형식**
 
@@ -133,19 +134,19 @@ switch 문은 작게 만들기 어렵다. (if/else가 여럿 이어지는 구문
 
 `Circle makeCircle(double x, double y, double radius);`
 
-⇒  `Circle makeCircle(Point center, double radius);`
+⇒ `Circle makeCircle(Point center, double radius);`
 
 개념을 표현하여 묶어주자!
 
 **인수 목록**
 
-가변 인수 전부는 List 형 인수 하나로 취급할 수 있다. 
+가변 인수 전부는 List 형 인수 하나로 취급할 수 있다.
 
 `String.format("%s worked %.2f hours.", name, hours);`
 
 실제 String.format의 선언부
 
-⇒  `public String format(String format, Object... args)`
+⇒ `public String format(String format, Object... args)`
 
 하지만 이를 넘어서는 인수를 사용할 경우에는 문제가 있다.
 
@@ -179,15 +180,15 @@ Side effect : 함수 내에서 함수 외부에 영향을 끼치는 것
 
 객체 상태를 변경하거나 아니면 객체 정보를 반환하거나 둘 중 하나다.
 
-나쁜 코드 ⇒  `public boolean set(String attribute, String value);`
+나쁜 코드 ⇒ `public boolean set(String attribute, String value);`
 
-이 함수는 이름이 attribute인 속성을 찾아 값을 value로 설정하고 성공하면 true, 실패하면 false를 반환한다. 
+이 함수는 이름이 attribute인 속성을 찾아 값을 value로 설정하고 성공하면 true, 실패하면 false를 반환한다.
 
 `if(set(”username”, “unclebob”))…`
 
 위 코드는 username을 unclebob으로 설정하는지, username이 unclebob인지 확인하는지 모호하다.
 
-⇒ 
+⇒
 
 ```java
 if(attributeExists("username")) {

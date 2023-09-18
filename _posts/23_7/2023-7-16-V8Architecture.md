@@ -6,6 +6,7 @@ categories:
   - JS
 tags:
   - V8
+  - js
 toc: true
 toc_sticky: true
 date: "2023-07-16 18:04:00 +0900"

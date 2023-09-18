@@ -5,7 +5,7 @@ sidebar_main: true
 categories:
   - Book
 tags:
-  - Review
+  - review
   - 함께 자라기
   - 애자일
 toc: true
