@@ -1,5 +1,5 @@
 ---
-title: "createConnection VS createPoo"
+title: "createConnection VS createPool"
 comments: true
 sidebar_main: true
 categories:
